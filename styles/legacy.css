@@ -1,0 +1,59 @@
+/* Styles extraits de public/legacy/index.html et login.html */
+/* Conservés sans modification pour préserver le design */
+
+body { font-family: 'Inter', sans-serif; }
+.gradient-text { background: linear-gradient(135deg, #1A73E8, #FFC857); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.gradient-bg { background: linear-gradient(135deg, #1A73E8, #34A853); }
+.card-hover { transition: all 0.3s ease; }
+.card-hover:hover { transform: translateY(-8px); box-shadow: 0 20px 40px rgba(0,0,0,0.1); }
+.hero-animation { animation: fadeInUp 0.8s ease-out; }
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.role-card { transition: all 0.3s ease; }
+.role-card:hover { transform: translateY(-12px); box-shadow: 0 25px 50px rgba(0,0,0,0.15); }
+
+/* Styles spécifiques à login.html */
+.login-card { backdrop-filter: blur(10px); }
+.role-badge { transition: all 0.3s ease; }
+.form-input { transition: all 0.3s ease; }
+.form-input:focus { transform: scale(1.02); }
+
+/* Styles spécifiques à dashboard.html */
+.neon-glow { box-shadow: 0 0 20px rgba(26, 115, 232, 0.3); }
+.xp-bar { background: linear-gradient(90deg, #1A73E8, #34A853); }
+.badge-gold { background: linear-gradient(135deg, #FFC857, #FF9F1C); }
+.progress-ring { transform: rotate(-90deg); }
+.leaderboard-item { transition: all 0.3s ease; }
+.leaderboard-item:hover { background-color: rgba(26, 115, 232, 0.05); }
+
+/* Styles spécifiques à mentor-zone.html */
+.metric-card { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+.status-indicator { width: 8px; height: 8px; border-radius: 50%; }
+.status-online { background-color: #10B981; }
+.status-busy { background-color: #F59E0B; }
+.status-offline { background-color: #6B7280; }
+.demo-badge { animation: pulse 2s infinite; }
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.7; }
+}
+
+/* Styles spécifiques à module.html */
+.progress-bar { transition: width 0.3s ease; }
+.quiz-option { transition: all 0.3s ease; cursor: pointer; }
+.quiz-option:hover { background-color: #F3F4F6; }
+.quiz-option.selected { background-color: #DBEAFE; border-color: #3B82F6; }
+.quiz-option.correct { background-color: #D1FAE5; border-color: #10B981; }
+.quiz-option.incorrect { background-color: #FEE2E2; border-color: #EF4444; }
+.content-section { min-height: 400px; }
+
+/* Styles spécifiques à module.html */
+.progress-bar { transition: width 0.3s ease; }
+.quiz-option { transition: all 0.3s ease; cursor: pointer; }
+.quiz-option:hover { background-color: #F3F4F6; }
+.quiz-option.selected { background-color: #DBEAFE; border-color: #3B82F6; }
+.quiz-option.correct { background-color: #D1FAE5; border-color: #10B981; }
+.quiz-option.incorrect { background-color: #FEE2E2; border-color: #EF4444; }
+.content-section { min-height: 400px; }
